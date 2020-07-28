@@ -1,0 +1,35 @@
+HTTP Request Command 
+
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"a":"b"},"body": "yahoo"}] ' http://localhost:9000
+
+flume.apache.org/releases/content/1.4.0/apidocs/org/apache/flume/source/http/JSONHandler.html
+
+
+http://hadooptutorial.info/data-collection-http-client-into-hbase/
+
+https://github.com/looker/spark_log_data
+
+
+
+./flume-ng agent --conf conf --conf-file /mnt/home/edureka_960126/flume_http.conf --name httpagent -Dflume.root.logger=INFO,console  --plugins-path /mnt/home/edureka_960126
+
+
+/opt/cloudera/parcels/CDH-5.11.1-1.cdh5.11.1.p0.4/bin
+
+/opt/cloudera/parcels/CDH-5.11.1-1.cdh5.11.1.p0.4/lib/flume-ng/lib/
+
+Itversity Link
+
+https://github.com/dgadiraju
+
+https://www.programmersought.com/article/3840405895/;jsessionid=60261C0F7C1C49145123A08CA61E5F05
+
+
+https://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
+
+
+https://opensource.com/article/19/5/log-data-apache-spark
+
+https://sparkbyexamples.com/spark/spark-read-csv-file-into-dataframe/
+
+/opt/cloudera/parcels/SPARK2-2.1.0.cloudera2-1.cdh5.7.0.p0.171658//lib/spark2/examples/src/main/scala/org/apache/spark/examples

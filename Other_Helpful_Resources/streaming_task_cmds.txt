@@ -1,0 +1,14 @@
+My current local instance where the custom sink for flume is running:
+
+ip-20-0-41-164.ec2.internal
+
+
+Now the hostnames of my worker nodes:
+
+ip-20-0-31-4.ec2.internal
+
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"a":"b"},"body": "{"season" : 1 , "weather" :2 , "temp" : 13.4 , "atemp" : 14.6 , "humidity" : 84.0 , "windspeed" : 18.0}"}] ' http://localhost:9000
+
+
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"a":"b"},"body": "{\"season\" : 1 , \"weather\" :2 , \"temp\" : 13.4 , \"atemp\" : 
+14.6 , \"humidity\" : 84.0 , \"windspeed\" : 18.0}"}] ' http://localhost:9000

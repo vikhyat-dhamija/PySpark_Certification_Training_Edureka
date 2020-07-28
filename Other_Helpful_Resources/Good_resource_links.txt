@@ -1,0 +1,11 @@
+username : edureka_960126
+password : edureka_960126oxxe7
+
+https://github.com/rootebuteShubham/pyspark-may-batch
+
+https://github.com/nitinkaushik01/Data_Science_Bootcamp/blob/master/Regression_Algorithms/Multiple_Linear_Regression/Multiple_Linear_Regression_Spark_MLLib_PySpark.ipynb
+
+https://www.silect.is/blog/2019/4/2/random-forest-in-spark-ml
+
+https://www.youtube.com/watch?v=2UQRWGalE7w
+

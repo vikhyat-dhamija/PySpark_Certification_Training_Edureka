@@ -1,0 +1,43 @@
+./spark-submit --conf "spark.executor.extraJavaOptions=-Dlog4j.debug=true" --conf "spark.executor.extraJavaOptions=-Dlog4j.configuration=log4j.properties" --files /mnt/home/edureka_960126/log4j.properties  /mnt/hom
+e/edureka_960126/HdfsTest.py /user/edureka_960126/AppleStore.csv
+
+https://mapr.com/blog/how-log-apache-spark/
+
+
+
+
+
+sqoop export \
+
+--connect jdbc:mysql://dbserver.edu.cloudlab.com/labuser_database \
+
+--username edu_labuser \
+
+--password edureka \
+
+--table df_mod4_cs1 \
+
+--export-dir /common4all/edureka_200115/may/emp_test
+
+
+
+sqoop import  \
+
+--connect jdbc:mysql://dbserver.edu.cloudlab.com/labuser_database \
+
+--username edu_labuser \
+
+--password edureka \
+
+--table df_mod4_cs1
+
+--target-dir '/user/edureka_960126/FINAL_FROM_DF.csv'
+
+
+/mnt/home/edureka_960126/sort.py
+
+/mnt/home/edureka_960126/input_sort_py.txt
+
+spark-submit /mnt/home/edureka_960126/sort.py /user/edureka_960126/input_sort_py.txt
+
+/user/edureka_960126/mod4_cs2_data/

@@ -1,0 +1,7 @@
+Cluster Config
+
+Zookeeper Detail
+zookeeper = ip-20-0-21-161.ec2.internal:2181 
+
+Brokers/Bootstrap Servers
+brokers = ip-20-0-31-210.ec2.internal:9092, ip-20-0-31-221.ec2.internal:9092, ip-20-0-31-4.ec2.internal:9092 

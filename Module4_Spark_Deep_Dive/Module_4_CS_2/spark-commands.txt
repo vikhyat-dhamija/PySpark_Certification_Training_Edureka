@@ -1,0 +1,21 @@
+Spark-running commands
+
+
+Location of HdfsTest.scala
+/opt/cloudera/parcels/SPARK2-2.1.0.cloudera2-1.cdh5.7.0.p0.171658/lib/spark2/examples/src/main/scala/org/apache/spark/examples/HdfsTest.scala
+
+Location of the Spark shell and the spark Submit Binary Files
+/opt/cloudera/parcels/SPARK2-2.1.0.cloudera2-1.cdh5.7.0.p0.171658/lib/spark2/bin
+
+Tested with HDFS File:
+
+AppleStore.csv
+
+
+Python script executed :
+
+/opt/cloudera/parcels/SPARK2-2.1.0.cloudera2-1.cdh5.7.0.p0.171658/lib/spark2/examples/src/main/python/wordcount.py
+
+
+https://bigdataprogrammers.com/how-to-execute-scala-script-in-spark-submit-without-creating-jar/
+

@@ -1,0 +1,20 @@
+1. Creation of topic fkchannel
+
+kafka-topics --create --zookeeper ip-20-0-21-161.ec2.internal:2181 --replication-factor 1 --partitions 1 --topic fkchannel
+
+2. Describing the fkchannel
+
+kafka-topics --describe --zookeeper ip-20-0-21-161.ec2.internal:2181 --topic fkchannel
+
+
+3.Setting Up of the consumer and Producer for working with this Kafka Topic in the Kafka Cluster
+
+--- Note that Flume source and sink are the producer and consumer for the kafka topic created
+
+4. In the Flume config file , we tell the flume about the brokers running at the port
+
+5. Flume sink or source can connect to these brokers for writing into any of the topic
+
+6. Consumer group Id is just the name given for the consumer group
+
+
